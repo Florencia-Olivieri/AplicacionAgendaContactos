@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/titulo_activmain"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:gravity="center_horizontal" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etNombre"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/tvTitulo"
+        android:hint="@string/nombreCT"/>
+    
+    <CalendarView
+        android:id="@+id/cvNacimiento"
+        android:layout_width="250dp"
+        android:layout_marginTop="5dp"
+        android:layout_height="245dp"
+        android:layout_below="@id/etNombre">
+
+    </CalendarView>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etTelefono"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/cvNacimiento"
+        android:hint="@string/telefono"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/etTelefono"
+        android:hint="@string/email"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etDescripcion"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/etEmail"
+        android:hint="@string/descripcion"/>
+
+    <Button
+        android:id="@+id/btnSiguiente"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/etDescripcion"
+        android:background="@color/colorAccent"
+        android:onClick="siguiente"
+        android:text="@string/btnsiguiente"
+        android:textAllCaps="false"
+        android:textSize="18sp">
+
+    </Button>
+
+
+
+     
+</RelativeLayout>

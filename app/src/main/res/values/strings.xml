@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AplicacionAgendaContactos</string>
+    <string name="titulo_activmain">Ingrese los datos del Contacto</string>
+    <string name="nombreCT">Nombre completo</string>
+    <string name="telefono">Teléfono</string>
+    <string name="email">Email</string>
+    <string name="descripcion">Descripción Contacto</string>
+    <string name="btnsiguiente">Siguiente</string>
+    <string name="titulo_activCD">Confirmar Datos</string>
+    <string name="btnEditar">Editar Datos</string>
+    <string name="nombreContacto" >Lorena Fernández</string>
+    <string name="fNacimContacto">12/12/1991</string>
+    <string name="telefonoContacto">555777999</string>
+    <string name="emailContacto">lorenafernandez@gmail.com</string>
+    <string name="descripcionContacto" >Conocí a Lorena en un restaurant de comida italiana</string>
+</resources>

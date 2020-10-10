@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".ConfirmarDatos">
+
+    <TextView
+        android:id="@+id/tvTituloCD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo_activCD"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+         />
+
+    <TextView
+        android:id="@+id/tvNombreCT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTituloCD"
+        android:text="@string/nombreContacto"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvNacimientoCT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvNombreCT"
+        android:text="@string/fNacimContacto"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvTelefonoCT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvNacimientoCT"
+        android:text="@string/telefonoContacto"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        >
+
+    </TextView>
+    <TextView
+        android:id="@+id/tvEmailCT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTelefonoCT"
+        android:text="@string/emailContacto"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvDescripcionCT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvEmailCT"
+        android:text="@string/descripcionContacto"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp">
+    </TextView>
+
+    <Button
+        android:id="@+id/btnEditarDatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvDescripcionCT"
+        android:layout_marginTop="50dp"
+        android:background="#CDDC39"
+        android:onClick="volverEditarDatos"
+        android:text="@string/btnEditar"
+        android:textAllCaps="false"
+        android:textSize="18sp">
+
+    </Button>
+
+</RelativeLayout>
